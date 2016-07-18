@@ -4,7 +4,7 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Joe's Blag</title>
+ <title>Joe's Blog</title>
  <link href="http://joerickard.github.io/blog/atom.xml" rel="self"/>
  <link href="http://joerickard.github.io/blog"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
@@ -14,7 +14,7 @@ layout: feed
    <email>joe.s.rickard@gmail.com</email>
  </author>
 
- {% for post in site._posts %}
+ {% for post in site/_posts %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://joerickard.github.io{{ post.url }}"/>
