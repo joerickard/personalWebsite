@@ -14,7 +14,7 @@ layout: feed
    <email>joe.s.rickard@gmail.com</email>
  </author>
 
- {% for post in "/_posts" %}
+ {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://joerickard.github.io{{ post.url }}"/>
