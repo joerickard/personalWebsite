@@ -1,2 +1,2 @@
 # joerickard.github.io
-My Website. In constant dev right now.
+My Website. made with markup and totally unremarkable. actually, I'd say utilitarian.
